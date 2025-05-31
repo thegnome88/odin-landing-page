@@ -60,6 +60,59 @@ img {
     border: none;
 }
 
+.middle-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 15rem 6rem;
+    gap: 3rem;
+}
+
+h3 {
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image-info {
+    text-align: center;
+    color: #576270;
+}
+
+.square {
+    margin: 0 auto 0.5rem;
+    box-sizing: border-box;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    width: 160px;
+    height: 160px;
+}
+
+.bottom-info {
+    color: #E5E7EB;
+    padding: 8rem 16rem;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
 html, body {
     margin: 0;
     padding: 0;
