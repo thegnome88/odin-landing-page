@@ -65,7 +65,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 15rem 6rem;
+    padding: 3rem 15rem 8rem;
     gap: 3rem;
 }
 
@@ -79,12 +79,13 @@ h3 {
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .image-info {
     text-align: center;
     color: #576270;
+    width: 175px;
 }
 
 .square {
@@ -92,13 +93,13 @@ h3 {
     box-sizing: border-box;
     border: 4px solid #3882F6;
     border-radius: 25px;
-    width: 160px;
-    height: 160px;
+    width: 175px;
+    height: 175px;
 }
 
 .bottom-info {
-    color: #E5E7EB;
-    padding: 8rem 16rem;
+    background-color: #E5E7EB;
+    padding: 8rem 28rem;
 }
 
 .quote {
@@ -110,7 +111,19 @@ h3 {
 .author {
     color: #1F2937;
     font-weight: 700;
-    margin-left: 10px;
+    font-size: 24px;
+    width: fit-content;
+    margin: 0 2rem 0 auto;
+}
+
+.ad-info {
+    padding: 8rem 10rem;
+}
+
+.ad-placeholder {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0;
 }
 
 html, body {
