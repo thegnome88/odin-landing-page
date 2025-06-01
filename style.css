@@ -117,13 +117,39 @@ h3 {
 }
 
 .ad-info {
-    padding: 8rem 10rem;
+    padding: 8rem 13rem;
 }
 
 .ad-placeholder {
     background-color: #3882F6;
     border-radius: 10px;
     border: 0;
+    height: 6rem;
+    padding: 2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-inside {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.ad-button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    padding: 3rem 0;
 }
 
 html, body {
